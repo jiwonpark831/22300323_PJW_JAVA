@@ -6,7 +6,7 @@ import java.lang.Math;
 public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
-        pStudio.J034();
+        pStudio.J035();
     }
 
     void J031() {
