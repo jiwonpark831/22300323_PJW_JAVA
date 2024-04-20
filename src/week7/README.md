@@ -10,7 +10,7 @@ J032. 문자열 거꾸로 출력하기<br>
 
 J033. 학부 영문 이름 중 가장 긴 것과 가장 짧은 것을 찾아라<br>
 
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week7/screenshots/J033.png' height = 200>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week7/screenshots/J033.png' height = 250>
 
 
 J034. 회원로그인 아이디/비번 검사하기<br>
@@ -20,4 +20,4 @@ J034. 회원로그인 아이디/비번 검사하기<br>
 
 J035. 생년월일을 분해해 숫자 만들기<br>
 
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week7/screenshots/J035.png' height = 150>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week7/screenshots/J035.png' height = 100>
