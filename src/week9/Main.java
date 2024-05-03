@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
-        pStudio.j043();
+        pStudio.j045();
     }
 
     void j041() {
@@ -39,10 +39,22 @@ public class Main {
     }
 
     void j044() {
+        MakePW pw = new MakePW();
+        int length = 0;
+        Scanner in = new Scanner(System.in);
+        length = in.nextInt();
+        pw.make(length);
 
     }
 
     void j045() {
+        MakePW pw = new MakePW();
+        int length1 = 0;
+        int length2 = 0;
+        Scanner in = new Scanner(System.in);
+        length1 = in.nextInt();
+        length2 = in.nextInt();
+        pw.makeCode(length1, length2);
 
     }
 
