@@ -1,0 +1,23 @@
+J051. 여러개의 암호 문자열 만들기<br>
+
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week9/screenshots/j041.png' height = 200>
+
+J052. 국영수 점수 분석하기 1<br>
+
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week9/screenshots/j042.png' height = 300>
+
+J053. 국영수 점수 분석하기 2<br>
+
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week9/screenshots/j043.png' height = 300>
+
+J054. 국영수 점수 분석하기 3<br>
+
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week9/screenshots/j044.png' height = 150>
+
+J055. 비만도 계산기<br>
+
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week9/screenshots/j045.png' height = 150>
+
+
+
+
