@@ -9,12 +9,15 @@ J052. 국영수 점수 분석하기 1<br>
 
 J053. 국영수 점수 분석하기 2<br>
 
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j053_1.png' height = 300>
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j053_2.png' height = 300>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j053_1.png' height = 320>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j053_2.png' height = 320>
 
 J054. 국영수 점수 분석하기 3<br>
 
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j054_1.png' height = 300>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j054_1.png' height = 350>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j054_2.png' height = 350>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j054_3.png' height = 350>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week10/screenshots/j054_4.png' height = 350>
 
 J055. 비만도 계산기<br>
 
