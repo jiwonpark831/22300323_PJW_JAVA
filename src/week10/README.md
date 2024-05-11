@@ -18,7 +18,7 @@ J054. 국영수 점수 분석하기 3<br>
 
 J055. 비만도 계산기<br>
 
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week9/screenshots/j045.png' height = 150>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week9/screenshots/j055.png' height = 150>
 
 
 
