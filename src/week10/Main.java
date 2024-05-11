@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
-        pStudio.j055();
+        pStudio.j054();
     }
 
     void j051() {
@@ -40,6 +40,8 @@ public class Main {
         score.getScore();
         int num = 0;
         String classname = "";
+        score.printScore();
+        System.out.print("찾고싶은 과목 (국:0, 영:1, 수:2) : ");
         Scanner in = new Scanner(System.in);
         num = in.nextInt();
         classname = in.nextLine();
