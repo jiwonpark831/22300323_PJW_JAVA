@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
-        pStudio.j053();
+        pStudio.j055();
     }
 
     void j051() {
@@ -33,6 +33,23 @@ public class Main {
         System.out.print("찾고싶은 학생의 번호 : ");
         num = in.nextInt();
         score.printScore(num);
+    }
+
+    void j054() {
+        Score score = new Score(5);
+        score.getScore();
+        int num = 0;
+        String classname = "";
+        Scanner in = new Scanner(System.in);
+        num = in.nextInt();
+        classname = in.nextLine();
+        score.printScore(num, classname);
+    }
+
+    void j055() {
+        BMICalculator calbmi = new BMICalculator();
+        calbmi.getHW();
+        calbmi.printBMI();
     }
 
     void bj() {
