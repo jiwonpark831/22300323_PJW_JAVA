@@ -19,6 +19,7 @@ public class WordCRUD {
         s.nextLine();
         System.out.print("Korean > ");
         korean = s.nextLine();
+        System.out.print("Level (1~3) > ");
         level = s.nextInt();
         Word new_word = new Word(english, korean, level);
         list.add(new_word);
