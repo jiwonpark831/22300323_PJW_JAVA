@@ -44,7 +44,7 @@ public class WordCRUD {
 
     void listWord() {
         for (int i = 0; i < list.size(); i++) {
-            System.err.printf("%d - %s\n", i + 1, list.get(i).toString());
+            System.out.printf("%d - %s\n", i + 1, list.get(i).toString());
         }
     }
 
