@@ -82,6 +82,7 @@ public class Main {
                     a.printThis();
                     break;
                 case "ls name":
+                    // Collections.sort();
                     Collections.sort(((TodoCrud) a).list, Comparator.comparing(TodoItem::getTitle));
                     a.printThis();
                     break;
