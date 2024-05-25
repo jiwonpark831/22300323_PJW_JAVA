@@ -42,7 +42,7 @@ public class Main {
                         if (((TodoCrud) a).list.get(i).getTitle().equals(title)) {
                             {
                                 TodoItem todoItem = ((TodoCrud) a).list.get(i);
-                                System.out.print("[" + ((TodoCrud) a).list.get(i).getTitle() + "] "
+                                System.out.println("[" + ((TodoCrud) a).list.get(i).getTitle() + "] "
                                         + ((TodoCrud) a).list.get(i).getContent() + " - "
                                         + ((TodoCrud) a).list.get(i).getDate());
                                 a.delete(todoItem);
@@ -56,7 +56,7 @@ public class Main {
                     break;
                 case "edit":
                     System.out.println("Edit a Todo item");
-                    System.out.print("Enter the title of the item to edit: ");
+                    System.out.println("Enter the title of the item to edit: ");
                     title = s.nextLine();
                     int founde = 0;
                     for (int i = 0; i < ((TodoCrud) a).list.size(); i++) {
@@ -78,6 +78,7 @@ public class Main {
                         System.out.println("Not found");
                     break;
                 case "ls":
+                    System.out.println("Total " + ((TodoCrud) a).list.size() + " items");
                     a.printThis();
                     break;
                 case "ls name":

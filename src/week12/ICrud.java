@@ -17,9 +17,4 @@ public interface ICrud {
 
     public void printThis();
 
-    public void printThis(String date);
-
-    public List<TodoItem> listSchedule(String date);
-
-    public int countSchedule(String date);
 }
