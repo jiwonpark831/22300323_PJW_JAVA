@@ -56,12 +56,12 @@ public class Main {
                     break;
                 case "edit":
                     System.out.println("Edit a Todo item");
-                    System.out.println("Enter the title of the item to edit: ");
+                    System.out.print("Enter the title of the item to edit: ");
                     title = s.nextLine();
                     int founde = 0;
                     for (int i = 0; i < ((TodoCrud) a).list.size(); i++) {
                         if (((TodoCrud) a).list.get(i).getTitle().equals(title)) {
-                            System.out.print("[" + ((TodoCrud) a).list.get(i).getTitle() + "] "
+                            System.out.println("[" + ((TodoCrud) a).list.get(i).getTitle() + "] "
                                     + ((TodoCrud) a).list.get(i).getContent() + " - "
                                     + ((TodoCrud) a).list.get(i).getDate());
                             System.out.print("Enter the detail: ");
@@ -83,18 +83,22 @@ public class Main {
                     break;
                 case "ls name":
                     // Collections.sort();
+                    System.out.println("Total " + ((TodoCrud) a).list.size() + " items");
                     Collections.sort(((TodoCrud) a).list, Comparator.comparing(TodoItem::getTitle));
                     a.printThis();
                     break;
                 case "ls name desc":
+                    System.out.println("Total " + ((TodoCrud) a).list.size() + " items");
                     Collections.sort(((TodoCrud) a).list, Comparator.comparing(TodoItem::getTitle).reversed());
                     a.printThis();
                     break;
                 case "ls date":
+                    System.out.println("Total " + ((TodoCrud) a).list.size() + " items");
                     Collections.sort(((TodoCrud) a).list, Comparator.comparing(TodoItem::getDate));
                     a.printThis();
                     break;
                 case "ls date desc":
+                    System.out.println("Total " + ((TodoCrud) a).list.size() + " items");
                     Collections.sort(((TodoCrud) a).list, Comparator.comparing(TodoItem::getDate).reversed());
                     a.printThis();
                     break;
