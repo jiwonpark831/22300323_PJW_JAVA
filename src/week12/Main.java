@@ -27,7 +27,7 @@ public class Main {
                     title = s.nextLine();
                     System.out.print("Enter the detail: ");
                     content = s.nextLine();
-                    System.out.print("Enter the detail: ");
+                    System.out.print("Enter the date: ");
                     date = s.nextLine();
 
                     a.create(title, content, date);
