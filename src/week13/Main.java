@@ -82,6 +82,10 @@ public class Main {
         System.out.println("Total overweight persons : " + bmiCount + "(" + percentString + "%)");
     }
 
+    void j083() {
+
+    }
+
     void j085() {
         String data = "";
         try {
