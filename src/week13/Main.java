@@ -9,7 +9,7 @@ import java.lang.*;
 public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
-        pStudio.j084();
+        pStudio.j083();
     }
 
     void j081() {
@@ -83,7 +83,31 @@ public class Main {
     }
 
     void j083() {
-
+        List<String> list = new ArrayList<>();
+        int max = 0;
+        int order = 0;
+        try {
+            File file = new File("./src/week13/j083.txt");
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()) {
+                order++;
+                String line = scanner.nextLine();
+                list.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        for (int i = 0; i < order; i++) {
+            String[] arr = list.get(i).split(" ");
+            String name = arr[0];
+            int kor = Integer.parseInt(arr[1]);
+            int eng = Integer.parseInt(arr[2]);
+            int math = Integer.parseInt(arr[3]);
+            int sum = kor + eng + math;
+            double avg = sum / 3.0;
+            String percentString = String.format("%.1f", avg);
+            System.out.println(name + " - sum: " + sum + ", avg: " + percentString);
+        }
     }
 
     void j084() {
