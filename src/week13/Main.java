@@ -9,7 +9,7 @@ import java.lang.*;
 public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
-        pStudio.j085();
+        pStudio.j084();
     }
 
     void j081() {
@@ -84,6 +84,43 @@ public class Main {
 
     void j083() {
 
+    }
+
+    void j084() {
+        List<String> list = new ArrayList<>();
+        int count = 0;
+        String name;
+        String longest = "";
+        String shortest = "";
+        try {
+            File file = new File("./src/week13/j084.txt");
+            Scanner scanner = new Scanner(file);
+            while (scanner.hasNextLine()) {
+                count++;
+                String line = scanner.nextLine();
+                list.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        for (int i = 0; i < count; i++) {
+            System.out.println(list.get(i));
+
+            if (i == 0) {
+                longest = list.get(0);
+                shortest = list.get(0);
+            } else {
+                if (longest.length() < list.get(i).length())
+                    longest = list.get(i);
+                if (shortest.length() > list.get(i).length())
+                    shortest = list.get(i);
+            }
+
+        }
+        System.out.println("Count: " + count);
+        System.out.println("Longest: " + longest);
+        System.out.println("Shortest: " + shortest);
     }
 
     void j085() {
