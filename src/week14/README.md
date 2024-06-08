@@ -10,9 +10,9 @@ J092. 주차장 입출력 관리<br>
 
 J093. SimpleChat 기능 추가 1<br>
 
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week14/screenshots/j093.png' width = 250>
+
 
 J094. SimpleChat 기능 추가 2<br>
 
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week14/screenshots/j094.png' width = 250>
-
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week14/screenshots/j094-1.png' width = 350>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week14/screenshots/j094-2.png' width = 350>
