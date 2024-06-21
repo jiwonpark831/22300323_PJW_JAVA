@@ -1,0 +1,8 @@
+Kiki's Delivery Service,7.8,2640000,1989
+Spirited Away,8.6,23500000,2001
+Castle in the Sky,8.2,770000,1986
+Princess Mononoke,8.5,14200000,1997
+The Secret World of Arrietty,7.6,7800000,2010
+Tonari no Totoro,9.1,800000,1988
+Kaze no tani no Naushika,8.0,910000,1984
+Gake no ue no Ponyo,7.6,1510000,12870000,2008
