@@ -10,7 +10,7 @@ public class Main {
     }
 
     public void printMenu() {
-        System.out.print("\n1.Add 2.Read 3.Update 4.Delete 5.Search 6.Save 0.Exit > ");
+        System.out.print("\n1.Add 2.Read 3.Update 4.Delete 5.Search 6.Save 7.Sort 0.Exit > ");
     }
 
     public void run() {
@@ -31,13 +31,6 @@ public class Main {
                     break;
 
                 case 2:
-                    int rora;
-                    System.out.print("Sort by [1]rate, [2]audience > ");
-                    rora = sc.nextInt();
-                    if (rora == 1)
-                        manager.sortByRate();
-                    else
-                        manager.sortAudience();
                     manager.printAll();
                     break;
 
@@ -60,7 +53,16 @@ public class Main {
                         System.out.println("fail to save\n");
                     }
                     break;
-
+                case 7:
+                    int rora;
+                    System.out.print("Sort by [1]rate, [2]audience > ");
+                    rora = sc.nextInt();
+                    if (rora == 1)
+                        manager.sortByRate();
+                    else
+                        manager.sortAudience();
+                    manager.printAll();
+                    break;
                 case 0:
                     quit = true;
                     break;
