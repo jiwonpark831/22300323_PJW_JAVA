@@ -1,7 +1,7 @@
 J101<br>
 
 Add<br>
-<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week15_miniproject/screenshots/j101_add.png' width = 350>
+<img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week15_miniproject/screenshots/j101_add.png' width = 500>
 
 Read<br>
 <img src= 'https://github.com/jiwonpark831/22300323_PJW_JAVA/blob/main/src/week15_miniproject/screenshots/j101_read.png' width = 350>
