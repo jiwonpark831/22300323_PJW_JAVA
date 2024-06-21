@@ -46,23 +46,7 @@ public class MovieCrud implements iCRUD {
             bw2.newLine();
         }
         bw2.close();
-    }
-
-    public void report() throws IOException {
-
-        File file2 = new File("src/report.txt");
-        FileWriter fw2 = new FileWriter(file2);
-        BufferedWriter bw2 = new BufferedWriter(fw2);
-        int count = list.size();
-
-        bw2.write("Total " + count + " records");
-        bw2.newLine();
-
-        for (MovieItem item : this.list) {
-            bw2.write(item.toString());
-            bw2.newLine();
-        }
-
+        System.out.println("moviedata.txt and movielist.txt are saved");
     }
 
     @Override
@@ -133,7 +117,7 @@ public class MovieCrud implements iCRUD {
 
         MovieItem item_found = findName(title);
         if (item_found == null) {
-            System.out.println(title + "not found");
+            System.out.println(title + " not found");
             return 1;
         }
 
@@ -178,13 +162,13 @@ public class MovieCrud implements iCRUD {
     }
 
     public int searchItem() {
-        int min, max;
+        double min, max;
         System.out.print("Enter the range of rating > ");
         Scanner sc = new Scanner(System.in);
-        min = sc.nextInt();
-        max = sc.nextInt();
+        min = sc.nextDouble();
+        max = sc.nextDouble();
         for (MovieItem item : list) {
-            if (min < item.getScore() && max > item.getScore())
+            if (min <= item.getScore() && max >= item.getScore())
                 System.out.println(item.toString());
         }
         return 0;

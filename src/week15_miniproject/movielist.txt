@@ -1,0 +1,10 @@
+Total 9 movies
+[Kiki's Delivery Service] rating: 7.8, total audiences: 2640000, open-date: 1989
+[Spirited Away] rating: 8.6, total audiences: 23500000, open-date: 2001
+[Princess Mononoke] rating: 8.5, total audiences: 14200000, open-date: 1997
+[The Secret World of Arrietty] rating: 7.6, total audiences: 7800000, open-date: 2010
+[Tonari no Totoro] rating: 9.1, total audiences: 800000, open-date: 1988
+[Kaze no tani no Naushika] rating: 8.0, total audiences: 910000, open-date: 1984
+[Gake no ue no Ponyo] rating: 7.6, total audiences: 1510000, open-date: 12870000
+[Howl's Moving Castle] rating: 9.3, total audiences: 3020000, open-date: 2004
+[The Boy and the Heron] rating: 8.9, total audiences: 2010000, open-date: 2023
